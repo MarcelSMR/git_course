@@ -1,0 +1,18 @@
+# git --version
+    - Exibe a versão do git utilizada
+
+# git status
+    - Exibe o status do repositório, com os todos os arquivos que foram modificados, comitados, etc.
+
+# git init
+    - Inicializa um repositório no pc
+    - Portanto, cria um arquivo .git oculto na pasta que será o repo
+
+# git add [arquivo.ext]
+    - Adiciona um arquivo ao repositório
+
+# git commit -m "message"
+    - Envia repositório para ferramenta de gerenciamento de repositórios (GitHub e BitBucket) com uma mensagem incluida
+    - A mensagem deve conter um titúlo sobre as alterações e incrementações realizadas
+
+# git push
