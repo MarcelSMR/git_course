@@ -22,7 +22,7 @@
 # git branch -M master
     - Cria uma branch principal ou branch mestra no repositório
 
-# git remote add origin [linkdogithub]
+# git remote add origin [linkdoreporemoto]
     - Adiciona uma origem, em poucas palavras, atrela o repositório local ao repositório do GitHub.
 
 # git remote rm origin
@@ -38,7 +38,7 @@
     - Executa um merge entre os repos remoto e local.
     - Com esse código executado serão buscadas atualizações e, se encontradas, elas serão unidas ao código local;
 
-# git clone
+# git clone [linkdoreporemoto]
     - Clona repositório na pasta atual, isto é, baixa um repo de um server remoto
     - Geralmente usado quando se ingressa no projeto pela primeira vez
 
@@ -50,7 +50,19 @@
     - Esse comando permite acessar um log de modificações feitas no projeto;
     - Todos os commits realizados até então serão informados
     - Apertando a tecla Q, saímos do log de commits
+
  # git mv
     - Permite renomear um arquivo ou mover um arquivo para outra pasta
     - Fazendo isso, o arquivo será inserido no git
     - O arquivo no estado anterior será deletado
+
+# git checkout
+    - Retorna ao estado original um arquivo recém modificado.
+    - O estado original equivale ao estado presente na repo remota
+    - Usando esse comando o arquivo sai do staging (o arquivo não será trackeado para ser dado um commit)
+    - Se houver outra alteração, ele entrará novamente no staging
+
+# .gitignore
+    - Esse não é um comando, mas sim um arquivo que fica na raiz do projeto
+    - Outros arquivos que não deverão entrar no versionamento serão inseridos nele, ignorando por completo esses arquivos
+    - Muito útil com arquivos gerados automaticamente ou arquivos sensíveis
