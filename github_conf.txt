@@ -1,0 +1,2 @@
+# É necessário ter ao menos 1 arquivo qualquer no repositório para sincroniza-lo agito github (Geralmente o README)
+# A cada novo projeto é necessário realizar alguns comandos indicados no github para atrelar o repo ao servidor
