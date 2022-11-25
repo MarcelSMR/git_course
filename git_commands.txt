@@ -67,3 +67,7 @@
     - Outros arquivos que não deverão entrar no versionamento serão inseridos nele, ignorando por completo esses arquivos
     - Muito útil com arquivos gerados automaticamente ou arquivos sensíveis
     - Primeiro deve-se inserir os arquivos ou pastas que serão ignorados no gitignore, depois pode-se inserir os mesmos no projeto
+
+# git reset --hard origin/[branch]
+    - Reseta um branch por completo. Todas as alterações pendentes e commitadas serão excluidos.
+    - Tome cuidado com esse comando.
