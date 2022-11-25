@@ -9,10 +9,27 @@
     - Portanto, cria um arquivo .git oculto na pasta que será o repo
 
 # git add [arquivo.ext]
-    - Adiciona um arquivo ao repositório
+    - Adiciona um arquivo ao repositório.
+    - Arquivos com untraked (U) são os que serão adicionados.
+    - usar 'git add .' adiciona todos os arquivos existentes na pasta ao repositório.
 
 # git commit -m "message"
-    - Envia repositório para ferramenta de gerenciamento de repositórios (GitHub e BitBucket) com uma mensagem incluida
+    - Envia as alterações do repositório para ferramenta de gerenciamento de repositórios (GitHub e BitBucket) com uma mensagem incluida
     - A mensagem deve conter um titúlo sobre as alterações e incrementações realizadas
+    - Arquivos modified (M) e added (A) serão comitados.
+    - usando a flag -a é possivél comitar vários arquivos de uma só vez
 
-# git push
+# git branch -M master
+    - Cria uma branch principal ou branch mestra no repositório
+
+# git remote add origin [linkdogithub]
+    - Adiciona uma origem, em poucas palavras, atrela o repositório local ao repositório do GitHub.
+
+# git remote rm origin
+    - Remove a origem
+
+# git remote -v
+    - Exibe a origem do repo do servidor
+
+# git push -u origin master
+    - Envia o repositório com a branch main para o servidor do GitHub
