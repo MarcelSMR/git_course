@@ -17,7 +17,6 @@
 # git merge [nomedobranch]
     - Une o código de dois branchs distintos
     - É através desse comando que é possível receber atualizações de outros devs
-    - Precisa ser usado na branch master sempre
 
 - São ramos criados pelo git que separa as versões do projeto
 - Quando um projeto é criado, junto dele também é iniciado um branch master
