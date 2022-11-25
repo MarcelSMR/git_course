@@ -45,3 +45,12 @@
 # git rm
     - Deleta arquivos da monitoração do git
     - Depois de deletado ele não terá suas atualizações mais consideradas pelo git
+
+# git log
+    - Esse comando permite acessar um log de modificações feitas no projeto;
+    - Todos os commits realizados até então serão informados
+    - Apertando a tecla Q, saímos do log de commits
+ # git mv
+    - Permite renomear um arquivo ou mover um arquivo para outra pasta
+    - Fazendo isso, o arquivo será inserido no git
+    - O arquivo no estado anterior será deletado
