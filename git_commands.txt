@@ -17,7 +17,7 @@
     - Envia as alterações do repositório para ferramenta de gerenciamento de repositórios (GitHub e BitBucket) com uma mensagem incluida
     - A mensagem deve conter um titúlo sobre as alterações e incrementações realizadas
     - Arquivos modified (M) e added (A) serão comitados.
-    - usando a flag -a é possivél comitar vários arquivos de uma só vez
+    - usando a flag -a (all) é possível comitar vários arquivos de uma só vez
 
 # git branch -M master
     - Cria uma branch principal ou branch mestra no repositório
@@ -32,4 +32,16 @@
     - Exibe a origem do repo do servidor
 
 # git push -u origin master
-    - Envia o repositório com a branch main para o servidor do GitHub
+    - Envia o repositório com a branch main para o servidor (repo remoto) do GitHub
+
+# git pull
+    - Executa um merge entre os repos remoto e local.
+    - Com esse código executado serão buscadas atualizações e, se encontradas, elas serão unidas ao código local;
+
+# git clone
+    - Clona repositório na pasta atual, isto é, baixa um repo de um server remoto
+    - Geralmente usado quando se ingressa no projeto pela primeira vez
+
+# git rm
+    - Deleta arquivos da monitoração do git
+    - Depois de deletado ele não terá suas atualizações mais consideradas pelo git
