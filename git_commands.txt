@@ -66,3 +66,4 @@
     - Esse não é um comando, mas sim um arquivo que fica na raiz do projeto
     - Outros arquivos que não deverão entrar no versionamento serão inseridos nele, ignorando por completo esses arquivos
     - Muito útil com arquivos gerados automaticamente ou arquivos sensíveis
+    - Primeiro deve-se inserir os arquivos ou pastas que serão ignorados no gitignore, depois pode-se inserir os mesmos no projeto
