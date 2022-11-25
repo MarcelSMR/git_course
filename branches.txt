@@ -1,0 +1,24 @@
+# git branch
+    - Exibe todos os branchs existentes no projeto
+
+# git branch [nomedobranch]
+    - Cria uma nova branch
+    - Sempre que for criar um branch, ele deve partir da master
+
+# git branch -d/--delete [nomedobranch]
+    - Deleta um branch
+    - Não se deleta branchs normalmente (isso geralmente ocorre quando um branch é criado errado)
+
+# git checkout [nomedobranch]
+    - Muda de branch
+    - Com a flag -b ele cria e muda de branch
+    - Ao alterar um branch, mudanças que ainda não foram comitadas podem acabar indo junto
+
+
+@#$@#$@#$@#$
+
+- São ramos criados pelo git que separa as versões do projeto
+- Quando um projeto é criado, junto dele também é iniciado um branch master
+- A cada nova feature do projeto, uma branch separada é formada
+- Após a finalização das alterações os branchs são unidos num único código fonte principal do projeto
+
