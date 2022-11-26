@@ -18,6 +18,26 @@
     - Une o código de dois branchs distintos
     - É através desse comando que é possível receber atualizações de outros devs
 
+# git stash
+    - Reinicia a branch a partir do repositório inicial, descartando todo o código criado
+    - O código perdido pode ser recuperado
+
+# git stash list
+    - Exibe todas as stashs criadas
+
+# git stash apply [IDdastash]
+    - Recupera os comandos adicionados a stash anteriormente
+    - Uma stash pode sobrescrever outra
+
+# git stash show -p [IDdastash]
+    - Exibe quais as alterações realizadas dentro de cada stash
+
+# git stash clear
+    - Remove todas as stash de uma branch
+
+# git stash drop [IDdastash]
+    - Remove apenas uma stash específica da branch
+
 - São ramos criados pelo git que separa as versões do projeto
 - Quando um projeto é criado, junto dele também é iniciado um branch master
 - A cada nova feature do projeto, uma branch separada é formada
