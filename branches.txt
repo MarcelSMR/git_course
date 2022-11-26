@@ -38,6 +38,14 @@
 # git stash drop [IDdastash]
     - Remove apenas uma stash específica da branch
 
+# git tag -a [nomedatag] -m "[mensagem]" 
+    - Cria uma tag na branch
+    - A tag serve como um checkpoint de um branch, diferente de uma stash
+    - É usado para dermacar estágios de desenvolvimento de algum recurso
+
+# git tag
+    - Exibe todas as tags existentes
+    
 - São ramos criados pelo git que separa as versões do projeto
 - Quando um projeto é criado, junto dele também é iniciado um branch master
 - A cada nova feature do projeto, uma branch separada é formada
