@@ -42,6 +42,7 @@
     - Cria uma tag na branch
     - A tag serve como um checkpoint de um branch, diferente de uma stash
     - É usado para dermacar estágios de desenvolvimento de algum recurso
+    - Sempre deve commitar antes de criar uma tag
 
 # git tag
     - Exibe todas as tags existentes
@@ -51,6 +52,10 @@
 
 # git checkout [nomedatag]
     - Troca de tag, trocando assim de checkpoints do comando
+
+# git push origin [nomedatag]
+    - Envia uma tag para o repositório do código no servidor
+    - Com git push origin --tags ele envia todas as tags existentes
 
 - São ramos criados pelo git que separa as versões do projeto
 - Quando um projeto é criado, junto dele também é iniciado um branch master
