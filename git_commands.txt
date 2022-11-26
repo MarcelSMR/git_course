@@ -13,7 +13,7 @@
     - Arquivos com untraked (U) são os que serão adicionados.
     - usar 'git add .' adiciona todos os arquivos existentes na pasta ao repositório.
 
-# git commit -m "message"
+# git commit -m "[mensagem]"
     - Envia as alterações do repositório para ferramenta de gerenciamento de repositórios (GitHub e BitBucket) com uma mensagem incluida
     - A mensagem deve conter um titúlo sobre as alterações e incrementações realizadas
     - Arquivos modified (M) e added (A) serão comitados.
