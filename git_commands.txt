@@ -190,6 +190,36 @@ COMANDOS DE INSPENÇÃO DE REPOSITÓRIOS
 ADMINISTRAÇÃO DO REPOSITÓRIO
 #------------------------------------------------------
 
-# git clean 
+# git clean -f
     - Limpa todos os arquivos que estão Untracked(todos que vocês não utilizou o git add)
     - É muito utilizado para arquivos que são gerados automaticamente, por exemplo.
+
+# git gc
+    - Garbage Colector = gc
+    - Essa funcionalidade identifica arquivos que não são mais necessários e os exclui
+    - Assim, o repositório terá sua performance otimizada (É bom usar de vez em quando)
+
+# git fsck
+    - Abreviação de File System Check
+    - Este comando verifica a integridade de arquivos e sua conectividade, verificando possíveis corrupções de arquivos
+    - Comando de rotina, usado para averiguar e garantir a integridade dos arquivos do programa
+
+# git reflog
+    - Mapeia todos os passos do dev no repositório, até mudanças de branchs e resets
+    - Reflogs ficam salvos até expirar, o tempo de expiração padrão é de 30 dias
+    - Reflog emite um código(HASH) no começo das linhas as quais você consegue se mover usando git reset --hard [HASH]
+
+# git archive --format zip --output [nomedozip.zip] [nomedabranch]
+    - Permite transformar um repositório em um arquivo compactado
+    - Assim a branch em questão será zipada no nome dado
+
+#------------------------------------------------------
+TRABALHANDO COM COMMITS
+#------------------------------------------------------
+
+# git commit
+    - Commits sem sentidos atrapalham os projetos
+    - É necessário padronizar o uso dos commits para que o projeto cresça de forma saudável em seu versionamento
+    - Isso ajuda no envio dos pull requests, na melhoria dos logs do git log e na manutenção do projeto.
+    - Deve ser evitado o envio de vários commits que executem pequeninas funções ou commits com titúlos alheios
+    - Para esses tipos citados acima é melhor usar um recurso chamado PRIVATE BRANCHES
