@@ -140,3 +140,8 @@
     - Permite ralizar operações como adicionar um repositório para trackear ou remover
     - git remote add origin [linkdoreporemoto] adiciona um repositório remoto
 
+# git submodule
+    - Exibe todos os submódulos existentes
+
+# git submodule add [linkdorepositorio]
+    - Adiciona outro repositório
