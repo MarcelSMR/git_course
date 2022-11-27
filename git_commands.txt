@@ -1,3 +1,7 @@
+#------------------------------------------------------
+COMANDOS MAIS COMUNS DO GIT
+#------------------------------------------------------
+
 # git --version
     - Exibe a versão do git utilizada
 
@@ -73,6 +77,10 @@
     - Reseta um branch por completo. Todas as alterações pendentes e commitadas serão excluidos.
     - Tome cuidado com esse comando.
 
+#------------------------------------------------------
+TRABALHANDO COM BRANCHS 
+#------------------------------------------------------
+
 # git branch
     - Exibe todos os branchs existentes no projeto
 
@@ -93,6 +101,10 @@
     - Une o código de dois branchs distintos
     - É através desse comando que é possível receber atualizações de outros devs
 
+#------------------------------------------------------
+STASHS
+#------------------------------------------------------
+
 # git stash
     - Reinicia a branch a partir do repositório inicial, descartando todo o código criado
     - O código perdido pode ser recuperado
@@ -112,6 +124,10 @@
 
 # git stash drop [IDdastash]
     - Remove apenas uma stash específica da branch
+
+#------------------------------------------------------
+TAGS
+#------------------------------------------------------
 
 # git tag -a [nomedatag] -m "[mensagem]" 
     - Cria uma tag na branch
@@ -140,8 +156,28 @@
     - Permite ralizar operações como adicionar um repositório para trackear ou remover
     - git remote add origin [linkdoreporemoto] adiciona um repositório remoto
 
+#------------------------------------------------------
+SUBMÓDULOS
+#------------------------------------------------------
+
 # git submodule
     - Exibe todos os submódulos existentes
 
 # git submodule add [linkdorepositorio]
-    - Adiciona outro repositório
+    - Adiciona outro repositório como um submódulo ao repositório original
+
+# git push --recurse-submodules=on-demand
+    - Atualiza o submódulo; Deve ser feito depois de serem comitadas as mudanças do submodulo
+
+#------------------------------------------------------
+COMANDOS DE INSPENÇÃO DE REPOSITÓRIOS
+#------------------------------------------------------
+
+# git show
+    - Dá informações do branch atual e dos commits realizados, incluindo as modificações dos commits
+
+# git diff
+    - Exibe as diferenças do branch atual com o remoto
+
+# git diff [arquivo1][arquivo2]
+    - Exibe a diferença entre dois arquivos
