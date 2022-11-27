@@ -179,5 +179,17 @@ COMANDOS DE INSPENÇÃO DE REPOSITÓRIOS
 # git diff
     - Exibe as diferenças do branch atual com o remoto
 
-# git diff [arquivo1][arquivo2]
-    - Exibe a diferença entre dois arquivos
+# git diff HEAD:[arquivo1] [arquivo2]
+    - Exibe a diferença entre dois arquivos do repo atual com o remoto
+
+# git shortlog
+    - Gera um log resumido do projeto
+    - Cada commit será unido por nome do autor, permitindo saber quais commits foram enviados e por quem
+
+#------------------------------------------------------
+ADMINISTRAÇÃO DO REPOSITÓRIO
+#------------------------------------------------------
+
+# git clean 
+    - Limpa todos os arquivos que estão Untracked(todos que vocês não utilizou o git add)
+    - É muito utilizado para arquivos que são gerados automaticamente, por exemplo.
