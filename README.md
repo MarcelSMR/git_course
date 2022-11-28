@@ -39,4 +39,4 @@ Melhoria1, Melhoria2
 
 Contribuidor: [https://github.com/MazzGOD](https://github.com/MazzGOD)
 
-![Logo da Imagem](https://blog.emania.com.br/wp-content/uploads/2016/02/direitos-autorais-e-de-imagem.jpg)
+[![Logo da Imagem](https://blog.emania.com.br/wp-content/uploads/2016/02/direitos-autorais-e-de-imagem.jpg)](https://github.com/MazzGOD)
