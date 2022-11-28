@@ -26,3 +26,8 @@ Melhoria1, Melhoria2
     3. CSS diferente para grupos de clientes
 2. Integração com outros pagamentos
 3. Sistema de bônus primeira compra
+
+
+#### Imagem local
+
+![Logo da Imagem](https://img.freepik.com/fotos-premium/a-imagem-do-cerebro-humano_99433-294.jpg?w=740)

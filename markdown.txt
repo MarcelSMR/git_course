@@ -29,3 +29,11 @@ LISTAS
 - No markdown existem listas ordenadas e não ordenadas assim como no HTML
 - Listas não ordenadas começam com '* Item'
 - Listas ordenadas começam com '1. Item'
+
+#------------------------------------------------------
+IMAGENS
+#------------------------------------------------------
+
+- Imagens podem ser inseridas nos markdowns
+- Sintaxe para inserção de imagens: ![Texto alt](linkdaimagem)
+- A imagem pode estar no próprio repo ou ser externa
