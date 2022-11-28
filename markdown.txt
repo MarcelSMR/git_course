@@ -54,3 +54,12 @@ CÓDIGO (ESPECIAL DO GITHUB)
 - É possível inserir código no Markdown também.
 - A sintaxe é: ```código```
 - Esta sintaxe markdown é especial e exclusiva do GitHub
+
+#------------------------------------------------------
+TASK LIST (ESPECIAL DO GITHUB)
+#------------------------------------------------------
+
+- É possível inserir uma lista de tarefas pelo Markdown
+- A sintaxe para tarefas concluidas é: - [X] tarefa
+- A sintaxe para tarefas concluidas é: - [] tarefa
+- Esta sintaxe markdown é especial e exclusiva do GitHub
