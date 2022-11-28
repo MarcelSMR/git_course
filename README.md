@@ -37,4 +37,4 @@ Melhoria1, Melhoria2
 
 [Google](https://www.google.com.br)
 
-[https://github.com/MazzGOD](https://github.com/MazzGOD)
+Contribuidor: [https://github.com/MazzGOD](https://github.com/MazzGOD)
