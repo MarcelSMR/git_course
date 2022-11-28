@@ -222,4 +222,9 @@ TRABALHANDO COM COMMITS
     - É necessário padronizar o uso dos commits para que o projeto cresça de forma saudável em seu versionamento
     - Isso ajuda no envio dos pull requests, na melhoria dos logs do git log e na manutenção do projeto.
     - Deve ser evitado o envio de vários commits que executem pequeninas funções ou commits com titúlos alheios
-    - Para esses tipos citados acima é melhor usar um recurso chamado PRIVATE BRANCHES
+    - Para esses tipos citados acima é melhor usar um recurso chamado PRIVATE BRANCHES (Criar uma branch de outra branch que será privada)
+
+# git rebase [nomedobranch] [nomedobranchprivado]
+    - a
+    - b
+    - c
