@@ -29,5 +29,8 @@ Melhoria1, Melhoria2
 
 
 #### Imagem local
+![Logo da Imagem2](C:\Users\Marcel\Downloads\Backup\alita.jpg)
 
+#### Imagem externa
 ![Logo da Imagem](https://img.freepik.com/fotos-premium/a-imagem-do-cerebro-humano_99433-294.jpg?w=740)
+
