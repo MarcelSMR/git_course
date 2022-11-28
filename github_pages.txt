@@ -1,0 +1,18 @@
+#------------------------------------------------------
+GITHUB PAGES
+#------------------------------------------------------
+
+- GitHub Pages é uma forma de hospedar uma página estática nos servidores do GitHub;
+- Ou seja, uma alternativa gratuita para hospedar um portfólio/
+- Extremamente simples de colocar no ar, sem necessidade de domínio ou servidor
+- É bastante utilizado para aprensentar um projeto ou a documentação deste
+
+#------------------------------------------------------
+COMO CRIAR A PÁGINA
+#------------------------------------------------------
+
+- Primeiro crie um repo com o nome do usuario: nomedousuario.github.io
+- Depois clone o repo na maquina local
+- Adicionar o código do projeto na branch master
+- Enviar o código por meio de push
+- Assim você terá o site em https://nomedousuario.github.io
