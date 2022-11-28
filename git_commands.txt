@@ -225,7 +225,4 @@ TRABALHANDO COM COMMITS
     - Para esses tipos citados acima é melhor usar um recurso chamado PRIVATE BRANCHES (Criar uma branch de outra branch que será privada)
 
 # git rebase [nomedobranch] [nomedobranchprivado]
-    - a
-    - b
-    - c
-    - d
+    - Leva apenas um commit definitivo da branch privada para a normal
