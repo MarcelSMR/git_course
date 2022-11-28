@@ -27,10 +27,12 @@ Melhoria1, Melhoria2
 2. Integração com outros pagamentos
 3. Sistema de bônus primeira compra
 
-
 #### Imagem local
-![Logo da Imagem2](C:\Users\Marcel\Downloads\Backup\alita.jpg)
+![Logo da Imagem2](pasta/imagem.ext)
 
 #### Imagem externa
 ![Logo da Imagem](https://img.freepik.com/fotos-premium/a-imagem-do-cerebro-humano_99433-294.jpg?w=740)
 
+## Links interessantes:
+
+[Google](https://www.google.com.br)

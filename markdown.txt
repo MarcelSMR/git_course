@@ -37,3 +37,11 @@ IMAGENS
 - Imagens podem ser inseridas nos markdowns
 - Sintaxe para inserção de imagens: ![Texto alt](linkdaimagem)
 - A imagem pode estar no próprio repo ou ser externa
+
+#------------------------------------------------------
+LINKS
+#------------------------------------------------------
+
+- É possível inserir links num arquivo md
+- Sintaxe utilizada: [Texto do link](link)
+- Se for um link do GitHub pode ser de forma direta
