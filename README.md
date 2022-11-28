@@ -38,3 +38,5 @@ Melhoria1, Melhoria2
 [Google](https://www.google.com.br)
 
 Contribuidor: [https://github.com/MazzGOD](https://github.com/MazzGOD)
+
+![Logo da Imagem](https://blog.emania.com.br/wp-content/uploads/2016/02/direitos-autorais-e-de-imagem.jpg)
