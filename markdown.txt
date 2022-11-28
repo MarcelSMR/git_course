@@ -13,3 +13,11 @@ CABEÇALHOS
 
 - Em md os cabeçalhos são determinados pelo símbolo '#'
 - Cada '#' equivale a algum 'h' do html. Exemplo: # -> h1, ## -> h2, ...
+
+#------------------------------------------------------
+ESTILIZAÇÃO DE FONTES
+#------------------------------------------------------
+
+- Para escrever um texto em negrito deve-se usar: **texto** OU __texto__
+- Para escrever um texto em itálico deve-se usar: *texto* OU _texto_
+- Podem ser combinados os dois estilos acima: _um **texto** combinado_
