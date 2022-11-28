@@ -1,0 +1,15 @@
+#------------------------------------------------------
+O QUE É MARKDOWN?
+#------------------------------------------------------
+
+- É uma forma de adicionar estilo a textos na web;
+- O arquivo README.md aceita o markdown
+- Você consegue exibir trechos de códigos, imagens, vídeos, links
+- Permite a formação de uma melhor experiência para o usuário nas documentações
+
+#------------------------------------------------------
+CABEÇALHOS
+#------------------------------------------------------
+
+- Em md os cabeçalhos são determinados pelo símbolo '#'
+- Cada '#' equivale a algum 'h' do html. Exemplo: # -> h1, ## -> h2, ...

@@ -1,3 +1,80 @@
-# É necessário ter ao menos 1 arquivo qualquer no repositório para sincroniza-lo agito github (Geralmente o README)
-# A cada novo projeto é necessário realizar alguns comandos indicados no github para atrelar o repo ao servidor
-# É possível alterar o repositório do servidor pelo próprio github (Não creio que seja recomendado)
+#------------------------------------------------------
+CRIANDO NOVO REPOSITÓRIO NO GITHUB
+#------------------------------------------------------
+
+- É necessário ter ao menos 1 arquivo qualquer no repositório para sincroniza-lo agito github (Geralmente o README)
+- A cada novo projeto é necessário realizar alguns comandos indicados no github para atrelar o repo ao servidor
+- É possível alterar o repositório do servidor pelo próprio github (Não creio que seja recomendado)
+- Quando não se tem uma licença definida é bom utilizar MIT License
+
+#------------------------------------------------------
+ISSUES
+#------------------------------------------------------
+
+- São bugs ou features do projeto que precisam ser corrigidas ou implementadas
+- Cada issue permite realizar descrições, comentar a certa das soluções e definir o responsável por realiza-la
+- Cada issue permite o uso de tags para definir em que parte se encaixa o problema, no projeto.
+
+#------------------------------------------------------
+PULL REQUESTS
+#------------------------------------------------------
+
+- Pull requests é uma aba onde os devs enviam códigos para corrigir bugs ou incrementar funcionalidades
+- A ideia dos pull requests é que um código não deve ser inserido direto na master e sim passe por um pull request, para ser analizado.
+- O pull request vem de um novo branch criado no projeto e enviado para o repositório, com incremento de código.
+- Nas abas de seleção de branch no começo é possível selecionar quais branchs serão comparadas os códigos
+- Na comparação é possível ver todas as modificações realizadas
+- Ao clicar em pull request se não houver algum problema nos arquivos (se houver o github permite alterar o arquivo em questão) é possível dar merge
+- Ao clicar em merge será feito a integração do código da branch com a master
+- Terminado a tarefa e feito o pull request, o gerente do projeto dedve ser notificado
+
+#------------------------------------------------------
+ACTIONS
+#------------------------------------------------------
+
+- Aba do github onde são criadas as automatizações de deploy com integração em outros serviços
+- Assim, são criadas as rotinas para atualizar a master do projeto automáticamente
+- Aqui são incluidas as rotinas de CI/CD (Continous Integrations/Continous Development) por parte do DevOps
+
+#------------------------------------------------------
+PROJECTS
+#------------------------------------------------------
+
+- No projects é possível definir todas as etapas do software, representando por colunas
+- Cada item colocado na coluna é referente aquela etapa do projeto
+- É possível transformar os itens da coluna em issues
+- A aba é muito parecida com outros organizadores de tarefa como o Trello e o Kanban
+
+#------------------------------------------------------
+WIKI
+#------------------------------------------------------
+
+- Wiki permite criar uma documentação mais extensa do projeto
+- Descreve funcionalidades, bugs conhecidos e não solucionados, entre outras funções.
+- Essa aba se trata de uma repo de conhecimento do projeto.
+
+#------------------------------------------------------
+INSIGHTS
+#------------------------------------------------------
+
+- Nessa aba é possível encontrar informações detalhadas do projeto em si.
+- As informações geralmente variam entre: quem são os contribuidores, commits, forks, pull requests mergeds e muito mais
+- É geralmente utilizado para compreender o avanço do projeto e sua evolução desde o ínicio
+- Forks nada mais é que uma cópia de um projeto do github para outro github. Geralemnte usado para criar versões diferentes de um mesmo projeto
+
+#------------------------------------------------------
+SETTINGS
+#------------------------------------------------------
+
+- Aba de configurações do projeto
+- Aqui é possível alterar o nome do projeto, remover ou adicionar features ou até deletar o repo
+- Aqui é onde são adicionados os colaboradores
+
+#------------------------------------------------------
+GISTS
+#------------------------------------------------------
+
+- São pequenos blocos de comandos que também podem ser hospedados no GitHub
+- Muito utilizados quando você encontrou alguma solução pra um problema e não deseja perde-lo
+- O link do gist pode ser compartilhado;
+- O gist no fim será parecido com um repositório

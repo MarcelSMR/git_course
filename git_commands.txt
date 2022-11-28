@@ -223,6 +223,24 @@ TRABALHANDO COM COMMITS
     - Isso ajuda no envio dos pull requests, na melhoria dos logs do git log e na manutenção do projeto.
     - Deve ser evitado o envio de vários commits que executem pequeninas funções ou commits com titúlos alheios
     - Para esses tipos citados acima é melhor usar um recurso chamado PRIVATE BRANCHES (Criar uma branch de outra branch que será privada)
+    - Commits devem ter seu titulo separado do corpo da mensagem
+    - Título dos commits deve ter no máximo 50 caracteres
+    - Corpo dos commits deve ter no máximo 72 caracteres
+    - No corpo deve ser definido o porquê e como do commit, e não como o código foi escrito.
+
+#------------------------------------------------------
+PRIVATE BRANCHES
+#------------------------------------------------------
 
 # git rebase [nomedobranch] [nomedobranchprivado]
-    - Leva apenas um commit definitivo da branch privada para a normal
+    - Permite alterar e definir quais commits da branch privada serão levadas para a normal
+    - subtitles:
+        pick -> commits que serão levados
+        squash -> commits que serão ignorados
+        reword -> commits que serão renomeados
+    - Teclas de atalho.
+        i -> permite editar os commits (renomear)
+        :x! -> sai da aba de edição
+        enter -> segue em frente até o último commit
+
+#

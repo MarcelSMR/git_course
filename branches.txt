@@ -1,5 +1,9 @@
-# São ramos criados pelo git que separa as versões do projeto
-# Quando um projeto é criado, junto dele também é iniciado um branch master
-# A cada nova feature do projeto, uma branch separada é formada
-# Após a finalização das alterações os branchs são unidos num único código fonte principal do projeto
-# Antes de criar uma nova branch é necessário atualizar o repo local com o existente no servidor, para não haver problemas
+#------------------------------------------------------
+BRANCHES
+#------------------------------------------------------
+
+- São ramos criados pelo git que separa as versões do projeto
+- Quando um projeto é criado, junto dele também é iniciado um branch master
+- A cada nova feature do projeto, uma branch separada é formada
+- Após a finalização das alterações os branchs são unidos num único código fonte principal do projeto
+- Antes de criar uma nova branch é necessário atualizar o repo local com o existente no servidor, para não haver problemas
