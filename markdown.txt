@@ -21,3 +21,11 @@ ESTILIZAÇÃO DE FONTES
 - Para escrever um texto em negrito deve-se usar: **texto** OU __texto__
 - Para escrever um texto em itálico deve-se usar: *texto* OU _texto_
 - Podem ser combinados os dois estilos acima: _um **texto** combinado_
+
+#------------------------------------------------------
+LISTAS
+#------------------------------------------------------
+
+- No markdown existem listas ordenadas e não ordenadas assim como no HTML
+- Listas não ordenadas começam com '* Item'
+- Listas ordenadas começam com '1. Item'
